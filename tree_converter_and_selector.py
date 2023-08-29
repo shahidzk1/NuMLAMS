@@ -122,5 +122,4 @@ class TreeHandler:
         df_non_frag['label']= np.zeros(df_non_frag.shape[0])
         df_non_frag['label'] = df_non_frag['label'].replace(0,label_non_frag)
         return df_frag, df_non_frag
-    return df_frag, df_non_frag
 
