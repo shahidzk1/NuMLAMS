@@ -78,10 +78,7 @@ class TreeHandler:
 
         '''
 
-        var = ['mevmom1[0]','mevmom1[1]','mevmom1[2]','mevmom1[3]','mevmom1[4]','mevmom1[5]',
-                  'mevmom1[6]','mevmom1[7]','mevmom1[8]','mevmom1[9]','mevmom1[10]','mevmom1[11]',
-                  'mevmom1[12]','mevmom1[13]','mevmom1[14]','mevmom1[15]','mevmom1[16]',
-                  'mevmom1[17]','mevmom1[18]','mevmom1[19]','mevmom1[20]']
+        var = [f"mevmom1[{i}]" for i in range(21)]
         if df_option == "no_sel":
             df = self . get_dataframe()
         else:
