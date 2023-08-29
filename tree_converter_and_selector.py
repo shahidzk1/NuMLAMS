@@ -3,6 +3,9 @@ import pandas as pd
 import uproot
 from concurrent.futures import ThreadPoolExecutor
 
+""""
+This class imports a root tree file and can convert to a dataframe. It can also apply selections on the data and store it as a dataframe
+"""
 class TreeHandler:
     def __init__(self, file_path_name, tree_name, n_jobs):
         self . file_path_name                           = file_path_name
