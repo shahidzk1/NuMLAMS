@@ -74,9 +74,6 @@ class TreeHandler:
         Returns
             df (Pandas.Dataframe)   : A subset of df after the application of selection
 
-        use case:
-            df = non_fragmented(df, 4, 'fragmented')
-
             13 means upto layer 8 of the tracking
 
         '''
