@@ -64,7 +64,7 @@ class TreeHandler:
     
     def fragmentation_selection(self, layer_info, frag_option, variable_name, lower_bound, upper_bound, df_option=None):
         '''
-        The function applies the MC selection on detector part to check whether a nuclei has frgmented or not
+        The function applies the MC selection on detector parts to check whether a nuclei has frgmented or not
 
         Args:
             df (Pandas.Dataframe)   : The input dataframe
