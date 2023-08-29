@@ -5,6 +5,11 @@ from concurrent.futures import ThreadPoolExecutor
 
 """"
 This class imports a root tree file and can convert to a dataframe. It can also apply selections on the data and store it as a dataframe
+
+Args:
+    file_path_name (string)   : The address of the root file and its name
+    tree_name      (string)   : The name of the TTree object inside the file
+    n_jobs         (int)      : The number of parallel jobs to run    
 """
 class TreeHandler:
     def __init__(self, file_path_name, tree_name, n_jobs):
